@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 2rem;
+}
+
+div{
+  width:100%;
+}
+
+p{
+  margin:auto;
+  text-align: left;
+  font-weight: 700;
+}
+
+h3{
+  margin:auto;
+  text-align: left;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+h1{
+  text-align: center;
+}
+input{
+  padding: 1rem;
+  width:50%;
+  margin:1rem;
+}
+
+button{
+  padding: 1rem;
+  width:10%;
+  margin:1rem;
+  display: block;
+  align-content: center;
+}
+
+select{
+  padding: .5rem;
+  width: 14%;
+  margin: 1rem;
+}
+
+label{
+  display: block;
+  margin:1rem
+}
+
+#del{
+  display:inline
+}
+
